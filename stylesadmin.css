@@ -1,0 +1,27 @@
+body {
+    background-color: #7eb4eb;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Estilos del contenido */
+.container {
+    background-color: #3893ee;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los enlaces de la barra de navegación */
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+/* Estilos para el encabezado del administrador */
+h2 {
+    margin-top: 20px;
+}

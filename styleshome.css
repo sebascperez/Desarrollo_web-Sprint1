@@ -1,0 +1,23 @@
+body {
+    background-color: #7eb4eb;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Estilos del campo de búsqueda */
+.form-control {
+    width: 300px;
+}
+
+/* Estilos de la sección de productos */
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
