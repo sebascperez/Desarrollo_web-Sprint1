@@ -40,6 +40,25 @@
                 </form>
             </div>
         </nav>
+
+        <div class="container mt-5">
+            <h2>Adopted pets</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type of pet</th>
+                        <th>Age</th>
+                        <th>Weight</th>
+                        <th>Observations</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- Los elementos del carrito se agregarán aquí dinámicamente -->
+                </tbody>
+            </table>
+            <button class="btn btn-primary" onclick="adoptClicked()">Adopt</button>
+        </div>
     
         <!-- Adoption section -->
         <section class="container my-5">
@@ -71,5 +90,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="upload.js"></script>
+    <script src="cart.js"></script>
 </body>
 </html>
